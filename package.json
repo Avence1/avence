@@ -1,7 +1,11 @@
 {
-	"name": "divine-fog-8165",
+	"name": "avence",
 	"version": "0.0.0",
 	"private": true,
+	"engines": {
+		"node": "20.19.4",
+		"npm": "10.8.2"
+	},
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
@@ -14,5 +18,9 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.50.0"
+	},
+	"dependencies": {
+		"@node-rs/bcrypt": "^1.10.7",
+		"jose": "^6.1.2"
 	}
 }

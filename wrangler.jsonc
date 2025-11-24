@@ -4,11 +4,22 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "divine-fog-8165",
+	"name": "avence",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-11-21",
 	"observability": {
 		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "D1_DB",
+			"database_name": "avence-database-one",
+			"database_id": "7242af3a-7209-485a-8019-7bb8d0ead99b"
+		}
+	],
+	"vars": {
+		"REQUEST_KEY": "kLjH1_OOR68IdqG368LrsQwLZrFWdKIhE-jGZFE0",
+		"JWT_KEY": "e9ed01bc612b5f9fd34d0be603dc1803"
 	}
 	/**
 	 * Smart Placement
